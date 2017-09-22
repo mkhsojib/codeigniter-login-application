@@ -24,7 +24,7 @@ class users extends CI_Controller
     public function insert()
     {
 
-        $username = "mkhsojib";
+        $username = "nirob";
         $password = "123";
 
         $this->user_model->create_users([
@@ -44,7 +44,7 @@ class users extends CI_Controller
 
         $id = 3;
 
-        $username = "nirob";
+        $username = "kamrul";
         $password = "1234";
 
         $this->user_model->update_users([
